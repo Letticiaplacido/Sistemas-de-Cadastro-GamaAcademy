@@ -13,11 +13,11 @@ html {
     border: 0px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     height: 50px;
     text-transform: uppercase;
-    background-color: #BC8F8F;
+    background-color: #3CB371;
     list-style: none;
 }
   
@@ -44,6 +44,7 @@ html {
     display: flex;
     padding: 15px 20px;
     font-family: arial, sans-serif;
+    font-style: italic;
     text-align: center;
     color: #fff;
     text-decoration: none;
@@ -51,72 +52,56 @@ html {
 }
   
   .menu li:hover > a {
-    background:	#DB7093;
+    background:	#008080;
 }
-  
+
 
 .section-container{
     height: 100vh;
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .background-section-one{
-    background-image: url(../assets/backgound.jpg);
+    background-image: url(../assets/bg.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-.anuncio h3{
-    background-image: url(../assets/backgound.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
     font-family: arial, sans-serif;
-    font-size: 40px;
-    color:#fff;
-}
-
-
-
-.anuncio h2{
-    background-image: url(../assets/backgound.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-    font-family: arial, sans-serif;
-    font-size: 40px;
-    color:#fff;
+    font-style: italic;
+    font-size: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
 }
 
 .background-section-two{
-    background-image: url(../assets/backgound.jpg);
+    background-image: url(../assets/bg.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
 
 .background-section-three{
-    background-image: url(../assets/backgound.jpg);
+    background-image: url(../assets/bg.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-}
+   }
 
 .card-container{
     background: #fff;
     border-radius: 25px;
     padding: 30px;
     font-family: arial, sans-serif;
-    max-width: 450px;
+    font-style: italic;
+    max-width: 600px;
     display: grid;
-    align-content: space-around;
-    margin: 30px;
+    
     
 }
 
@@ -125,23 +110,21 @@ html {
     border-radius: 25px;
     padding: 30px;
     font-family: arial, sans-serif;
-    max-width: 450px;
+    font-style: italic;
+    max-width: 600px;
     display: grid;
-    align-content: space-around;
-    margin: 30px;
+    
     
 }
 
-.card-container2{
-    background: #fff;
-    border-radius: 25px;
-    padding: 30px;
-    font-family: arial, sans-serif;
-    max-width: 450px;
+form{
     display: grid;
-    align-content: space-around;
-    margin: 30px;
     
+    
+}
+
+form1{
+    display: grid;
     
 }
 
@@ -151,6 +134,7 @@ footer{
     padding: 25px;
     text-align: center;
     font-family: arial, sans-serif;
-    background-color:#BC8F8F;
+    font-style: italic;
+    background-color: #3CB371;
     color: #fff;
 }

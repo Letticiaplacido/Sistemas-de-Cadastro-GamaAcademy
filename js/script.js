@@ -4,11 +4,20 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     let name = document.getElementById('name').value;
     let email = document.getElementById('email').value;
-    //console.log({name, email});
-    let data = {
+    let telefone = document.getElementById('telefone').value;
+    let endereço = document.getElementById('endereço').value;
+    let cep = document.getElementById('cep').value;
+    let estado = document.getElementById('estado').value;
+
+   let data = {
         name,
         email,
-    }
+        telefone,
+        endereço,
+        cep,
+        estado,
+
+   }
 
     let convertData = JSON.stringify(data);
 
@@ -26,8 +35,5 @@ form.addEventListener('submit', (e) => {
         content.innerHTML = pronto
 
     }, 1000)
-
-
-
 
 })

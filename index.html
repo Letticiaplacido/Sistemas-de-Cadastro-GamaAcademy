@@ -5,106 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Escolha seu produto</title>
+    <title>Sistema de Cadastro</title>
 </head>
 <body>
 
     <nav class="menu">
         <ul>
-          <li><a href="#">Perfumaria</a>
+          <li><a href="#">Cadastro</a>
             <ul>
-              <li><a href="#">Feminina</a></li>
-              <li><a href="#">Masculina</a></li>
-              <li><a href="#">Infantil</a></li>
-              <li><a href="#">Unissex</a></li>
-              <li><a href="#">kids</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Presentes</a>
-            <ul>
-              <li><a href="#">Dias das Mães</a></li>
-              <li><a href="#">Aniversário</a></li>
-              <li><a href="#">Especiais</a></li>
-              <li><a href="#">criança</a></li>
-              <li><a href="#">Bebê</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Maquiagem</a>
-            <ul>
-              <li><a href="#">Paletas</a></li>
-              <li><a href="#">Sobrancelhas</a></li>
-              <li><a href="#">Unhas</a></li>
-              <li><a href="#">Acessórios</a></li>
-              <li><a href="#">Organizadores</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Cabelo</a>
-            <ul>
-              <li><a href="#">Shampoo</a></li>
-              <li><a href="#">Condicionador</a></li>
-              <li><a href="#">Finalizadores</a></li>
-              <li><a href="#">Tratamentos</a></li>
-              <li><a href="#">Cremes</a></li>
-            </ul>
+              <li><a href="#">Produtos</a></li>
+              <li><a href="#">Clientes</a></li>
+              </ul>
           </li>
         </ul>
       </nav>
     <section class="section-container background-section-one">
-        <img src="assets/Logo empresa.png" alt="Logotipo">
-    </section>
-
-    <section class="anuncio">
-        <h3>Aproveite e cadastre seus dados, para que receber nossas promoções</h3>
-        <h2>Não perca as nossas promoções, adicione ao carrinho e garanta o seu produto!</h2>
+        <h1>Sistema de Cadastros de produtos e Clientes</h1>
     </section>
 
     <section class="section-container background-section-two">
       <div class="card-container">
           <div id="content">
               <form id="form">
+                  <h2>Cadastro de Clientes</h2>
                   <input type="text" placeholder="name" id="name">
                   <input type="text" placeholder="email" id='email'>
+                  <input type="number" placeholder="telefone" id='telefone'>
+                  <input type="text" placeholder="endereço" id='endereço'>
+                  <input type="number" placeholder="cep" id='cep'>
+                  <input type="text" placeholder="estado" id='estado'>
                   <input type="submit" value="Cadastrar">
               </form>
           </div>
-          </div>
+        </div>
         </section>
     <section class="section-container background-section-three">
-        <div class="card-container">
-      
-            <img src="assets/paleta de maquiagem - Copia.jpg" alt="Paleta de Maquiagem">
-            <p>Paleta de Maquiagem</p>
-            <p>Por apenas: $29,90</p>
-            <input type="submit" value="Adicionar ao carrinho">
-             </div>
-
-             <div class="card-container1">
-              <img src="assets/perfume.jpg" alt="perfume">
-              <p>Dior Hypnotic Poison</p>
-              <p>Por apenas 96,50</p>
-                <input type="submit" value="Adicionar ao carrinho">
-              </div>
-
-              <div class="card-container2">
-                <img src="assets/Shampo - Copia.jpg" alt="Shampoo">
-                <p>Linha completa Exo</p>
-                <p>Por apenas 86,50</p>
-                  <input type="submit" value="Adicionar-ao-carrinho">
-              </div>
-
-              
-
+        <div class="card-container1">
+          <div id="content1">
+          <form id="form1">
+            <h2>Cadastro de Produtos</h2>
+            <input type="number" placeholder="codigo" id="codigo">
+            <input type="text" placeholder="prduto" id='produto'>
+            <input type="text" placeholder="descrição" id='descrição'>
+            <input type="number" placeholder="quantidade" id='quantidade'>
+            <input type="text" placeholder="fornecedor" id='fornecedor'>
+            <input type="number" placeholder="valor" id='valor'>
+            <input type="submit" value="Cadastrar">
+        </form>
+          </div>
+          </div>
     </section>
 
     <footer>
 
         <p>2021 - Todos os direitos reservados.</p>
         <p>Desafio 2 Gama Academy: Letticia Plácido Nascimento</p>
-
-
-
     </footer>
     
 </body>
 <script src="js/script.js"></script>
+<script src="js/script1.js"></script>
+
 </html>
